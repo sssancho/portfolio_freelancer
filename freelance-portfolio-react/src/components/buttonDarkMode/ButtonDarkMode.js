@@ -1,11 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./style.css";
+import { useLocalStorage } from "../../utils/useLocalStorage";
 
+import detectDarkMode from "../../utils/detectDarkMode";
+
+import "./style.css";
 import sun from "../../img/icons/sun.svg";
 import moon from "../../img/icons/moon.svg";
 
+
 const ButtonDarkMode = () => {
-  const [darkmode, setDarkmode] = useState("ligth");
+  const [darkmode, setDarkmode] = useLocalStorage('darkMode', detectDarkMode());
 
   const btnRef = useRef(null);
 
