@@ -5,7 +5,7 @@ import './../../styles/main.css'
 
 const GitHubBtn = (props) => {
   return (
-    <a href={props.link} className='btn-outline'>
+    <a href={props.link} target="_blank" rel="noreferrer" className='btn-outline'>
       <img src={gitHubIcon} alt='' />
       GitHub repo
     </a>
