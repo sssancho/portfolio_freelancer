@@ -13,11 +13,11 @@ const Contacts = () => {
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Telegram / WhatsApp</h2>
-                        <p><a href="tel:+79051234567">@ks7sancho / +420 (775) 323-682</a></p>
+                        <p><a href="tel:+420(775)323682">@ks7sancho / +420 (775) 323-682</a></p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:webdev@protonmail.com">progersanzhar@icloud.com</a></p>
+                        <p><a href="mailto:progersanzhar@icloud.com">progersanzhar@icloud.com</a></p>
                     </li>
                 </ul>
 
